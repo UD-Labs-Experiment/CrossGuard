@@ -1,0 +1,8 @@
+{
+  "model": "YOLO11n COCO, WebNN ONNX export",
+  "source_url": "https://huggingface.co/webnn/yolo11n/resolve/9c5acfdd74aaff2d0f47c51b878506361039a51f/onnx/yolo11n.onnx",
+  "repository_revision": "9c5acfdd74aaff2d0f47c51b878506361039a51f",
+  "sha256": "7d8fd1717d9d5bbab6986cd134afb620649c7a394303d55b1e09fc00804cc5c1",
+  "bytes": 10720228,
+  "runtime": "ONNX Runtime CPU; PyTorch c10.dll blocked by Application Control"
+}

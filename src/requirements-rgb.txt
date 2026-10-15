@@ -1,0 +1,10 @@
+carla==0.9.16
+onnxruntime-directml==1.24.4; sys_platform == "win32"
+onnxruntime==1.30.0; sys_platform != "win32"
+opencv-python==5.0.0.93
+numpy==2.5.3
+Pillow==12.3.0
+fastapi==0.142.2
+uvicorn==0.54.0
+websockets>=15,<17
+httpx==0.28.1

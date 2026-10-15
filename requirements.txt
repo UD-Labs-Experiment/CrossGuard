@@ -1,0 +1,5 @@
+# Verified baseline runtime; CARLA comes from the matching distribution wheel.
+carla==0.9.16
+numpy==2.5.3
+Pillow==12.3.0
+pygame==2.6.1

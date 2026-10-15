@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+*.log
+src/results/
+src/web/dist/
+src/models/*.onnx
+Evidence/
+experimentation/
+analysis/
