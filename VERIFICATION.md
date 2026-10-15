@@ -16,3 +16,5 @@ The selected active source files originate from local development commit `c6dc85
 The only alteration to the copied implementation is the default `--agy` executable in `src/tools/town10_unattended_robustness.py`: the development machine's absolute user path is replaced by `agy`, resolved through PATH. The command-line override remains available. Public README, ignore rules, this verification record and `verify_release.py` were added for the release. Historical status notes, internal workspace navigation and model weights were excluded.
 
 These checks verify the released source and input integrity. They do not establish independent reproduction of the paper's experimental outcomes or exact numerical replay of the simulator.
+
+Publication also checks the Git blob bytes against the catalogue seal. `.gitattributes` disables line-ending conversion for the two frozen input files so that Windows and Unix checkouts retain the same sealed bytes.

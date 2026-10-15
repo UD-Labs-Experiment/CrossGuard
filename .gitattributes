@@ -1,0 +1,3 @@
+# Frozen catalogue seals cover exact bytes, including original line endings.
+study/frozen_catalogue.json -text
+study/frozen_catalogue.sha256.json -text
